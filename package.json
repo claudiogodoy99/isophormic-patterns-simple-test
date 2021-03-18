@@ -2,10 +2,15 @@
   "name": "isomorphic",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "console": "node ui/index.mjs",
+    "web": "npx http-server ."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
